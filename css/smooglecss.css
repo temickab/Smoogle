@@ -1,0 +1,147 @@
+body{
+    background-color: #f9e6ff;
+}
+
+
+
+#topright{
+    
+}
+/* content on the top left of the sarch engine*/
+
+#smail{
+    list-style-type: none;
+    float: right;
+    word-spacing: 10px;  
+}
+
+li{
+    display: inline-block;
+}
+
+/* The smoogle logo in the middle of the page. Its that big purple Smoogle name*/
+#smoogle{
+   padding-top: 150px;
+   padding-left: 500px;
+   font-size: 40px;
+   color: blueviolet     
+}
+
+/* This is the search bar that's located under the smoogle name*/
+#search{
+    padding-left: 350px; 
+}
+
+/* This is the content that is the container of the "Im feeling smoogly button"*/
+#feeling{
+    padding-left: 480px;
+    padding-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;     
+}
+
+/* This is the button that they will click on once they type what they want to search in the search button*/
+#butt{
+    background-color: #d9b3ff;
+}
+
+
+
+.col1{
+    width: 95%
+    max-width: 100%
+    font-size: 15px;
+}
+
+
+
+#bottomleft{
+    float: left;
+    padding-bottom: 20px;
+    padding-top: 200px;
+    word-spacing: 10px;
+}
+
+#bottomright{
+    float: right;
+    padding-bottom: 20px;
+    padding-top: 200px;
+    word-spacing: 10px;
+}
+
+
+/*Tablets* Seems more Compatible to Ipads*/
+
+@media (max-width: 768px){
+    body{
+        background: #f9e6ff;
+    }
+    
+    #search{
+        float: none;
+        padding-left: 70px;
+        
+    }
+    
+    #smoogle{
+        padding-left: 240px;
+    
+    }
+    
+    #feeling{
+        padding-left: 220px;
+    
+    }
+    
+    #bottomleft{
+        padding-top: 500px;
+    }
+    
+    #bottomright{
+        padding-top: 500px;
+        padding-right: 30px;
+    }
+    
+}
+
+/* Galaxy S5*/
+
+@media (max-width: 601px){
+    body{
+        background: #f9e6ff;
+    }
+    
+    #search{
+        float: none;
+        padding-left: 12px;
+    }
+    
+    #smoogle{
+        padding-left: 180px;
+        
+    }
+    
+    #feeling{
+        padding-left: 190px;
+    }
+    
+    #topright{
+        padding-right: 60px;
+    }
+    #bottomright{
+        padding-bottom: 500px;  
+        
+    }
+    
+}
+
+
+@media print{
+    body{
+        background: none;
+    }
+    
+    
+}
+
+
